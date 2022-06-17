@@ -1,34 +1,88 @@
 .nav-bar{
     display: flex;
-    width: 195px;
+    width: 1900px;
+    height: 112px;
 }
 
 .logo{
-
+    margin-top: 75px;
+    margin-right: 900px;
+    margin-bottom: 285px;
+    margin-left: 100px;
 }
 
 .navigation{
+    width: 581px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: bold;
     display: flex;
-    /* justify-content: flex-end; */
+    background-color:#FFFFFF;
+    color:#3D37F1;
+    margin-top: 87px;
+    margin-bottom: 262px;
+   
 }
 
-.mini-block1{
-    width: 100px;
-    /* background-color: #FBBA77; */
+.li-list1{
+    padding-right: 52px;
+    /* color:#3D37F1; */
 }
+.li-list2{
+    padding-right: 45px;
+}
+.li-list3{
+    padding-right: 52px;
+}
+.li-list4{
+    padding-right: 52px;
+}
+.li-list5{
+    padding-right: 80px;
+}
+
+
+/* section #1 */
+
+.left-block{
+    width: 600px;
+    display: flex;
+}
+
+.satauri1{
+    width: 600px;
+    height: 203px;
+    font-size: 78px;
+    font-weight: bold;
+}
+
+
+
+
+
+.right-block{
+    width: 800px;
+    display: flex;
+}
+
+
+
+
+
+
 
 
 /* section #2 */
 
 .container{
     width: 1170px;
-    margin: o auto;
+    margin: 0 auto;
     background-color: #FBFCFD;
 }
 
 .text-block{
     width: 712px;
-    margin: o auto;
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 65px;
 }
@@ -42,23 +96,11 @@ align-items: center;
 flex-direction: column;
 }
 
-.beige {
-    background-color: #FBBA77;
-}
 
-.blue{
-    background-color: #41EAE3;
-}
-
-.purple{
-    background-color: #69529F;
-}
 
 .row1{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
-    margin-left: 20px;
     flex-wrap: wrap;
 }
 
@@ -71,46 +113,35 @@ flex-direction: column;
 .text{
     width: 328px;
     font-size: 16px;
-  
 }
 
 
-.darkblue{
+
+/* psevdo klasebi */
+
+.block:nth-child(1){
+
+    background-color: #FBBA77;
+    margin-bottom: 60px;
+}
+.block:nth-child(2){
+
+    background-color: #41EAE3;
+    margin-bottom: 60px;
+
+}
+.block:nth-child(3){
+
+    background-color: #69529F;
+    margin-bottom: 60px;
+}
+.block:nth-child(4){
     background-color: #4386D2;
 }
+.block:nth-child(5){
 
-.lightorange{
     background-color: #A5A2F6;
 }
-
-.red{
+.block:nth-child(6){
     background-color: #FF8088;
 }
-
-/* .
-.block1{
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.block2{
-    width: 300px;
-    height: 300px;
-    background-color: blueviolet;
-}
-
-.block3{
-    width: 300px;
-    height: 300px;
-    background-color: brown;
-}
-
-.wraper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
