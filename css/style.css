@@ -7,7 +7,7 @@
 .logo{
     margin-top: 75px;
     margin-right: 900px;
-    margin-bottom: 285px;
+    /* margin-bottom: 285px; */
     margin-left: 100px;
 }
 
@@ -17,16 +17,14 @@
     font-size: 20px;
     font-weight: bold;
     display: flex;
-    background-color:#FFFFFF;
     color:#3D37F1;
     margin-top: 87px;
     margin-bottom: 262px;
-   
+    font-family: 'Lato';
 }
 
 .li-list1{
     padding-right: 52px;
-    /* color:#3D37F1; */
 }
 .li-list2{
     padding-right: 45px;
@@ -44,31 +42,62 @@
 
 /* section #1 */
 
+.section1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .left-block{
     width: 600px;
-    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 100px;
 }
 
 .satauri1{
     width: 600px;
     height: 203px;
+    font-family: 'Lato';
     font-size: 78px;
     font-weight: bold;
 }
 
-
-
-
-
-.right-block{
-    width: 800px;
-    display: flex;
+.mobile-app{
+    width: 600px;
+    height: 103px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    margin-bottom: 83px;
+    
 }
 
 
+.wave-me{
+    width: 263px;
+    height: 76px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.wave{
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: white;
+    padding-left: 25px;
+}
 
-
+.right-block{
+    width: 800px;
+    height: 526px;
+    margin-top: 285px;
+    margin-left: 307px;
+    margin-bottom: 287px;
+}
 
 
 
@@ -87,13 +116,36 @@
     margin-bottom: 65px;
 }
 
-.block{
-width: 370px;
-height: 451px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+ 
+.satauri2{
+    color: #3D37F1;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato';
+    margin-bottom: 17px;
+}
+
+.paragraph1{
+    font-size: 40px;
+    font-family: 'Lato';
+    font-weight: normal;
+    margin-bottom: 21px;
+}
+
+.paragraph2{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    margin-bottom: 21px;
+}
+
+    .block{
+    width: 370px;
+    height: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
