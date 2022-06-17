@@ -7,7 +7,6 @@
 .logo{
     margin-top: 75px;
     margin-right: 900px;
-    /* margin-bottom: 285px; */
     margin-left: 100px;
 }
 
@@ -25,6 +24,7 @@
 
 .li-list1{
     padding-right: 52px;
+  
 }
 .li-list2{
     padding-right: 45px;
@@ -116,7 +116,7 @@
     margin-bottom: 65px;
 }
 
- 
+
 .satauri2{
     color: #3D37F1;
     font-size: 20px;
@@ -154,19 +154,40 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 130px;
 }
 
 .mini-block{
   display: flex;
   justify-content: center;
-  /* align-items: center */
+
 }
 
 .text{
     width: 328px;
+    height: 62px;
+    margin-top: 13px;
     font-size: 16px;
 }
 
+.satauri3{
+font-size: 22px;
+margin-top: 50px;    
+}
+
+.read-more{
+    width: 131px;
+    background-color: #FFFFFF;
+    height: 45px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    margin-top: 11px;
+    transition: all 0.3s;
+    
+}
 
 
 /* psevdo klasebi */
@@ -196,4 +217,12 @@
 }
 .block:nth-child(6){
     background-color: #FF8088;
+}
+
+
+/* hover styles */
+
+.read-more:hover{
+
+    background-color: gray
 }
