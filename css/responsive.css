@@ -1,0 +1,37 @@
+/* 1024px, 768px, 480px, 320px */
+
+@media  (max-width: 1024px) {
+.nav-bar {
+        width: 1024px;
+    }
+
+.logo{
+        margin-left: 10px;
+        margin-right: 100px
+    }
+}
+
+    
+
+@media  (max-width: 1024px) {
+   .section{
+        margin-left: 10px;
+    } 
+}
+    
+
+@media  (max-width: 1024px) {
+    
+        .container{
+            width: 1024px;
+        }
+    }
+
+    
+    @media  (max-width: 1024px) {
+      
+    .navigation{
+        width: 400px;
+    }  
+    
+    }
