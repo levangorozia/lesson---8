@@ -3,20 +3,83 @@
 @media  (max-width: 1024px) {
 .nav-bar {
         width: 1024px;
+        height: 100px;
     }
 
 .logo{
-        margin-left: 10px;
-        margin-right: 100px
+        margin-left: 40px;
+        margin-right: 200px;
+        width: 70%;
+        margin-top: 35px;
+    }
+
+.navigation{
+    width: 400px;
+    margin-top: 45px;
+}
+
+.li-list1{
+        padding-right: 30px;  
+    }
+    .li-list2{
+        padding-right: 30px;
+    }
+    .li-list3{
+        padding-right: 30px;
+    }
+    .li-list4{
+        padding-right: 30px;
+    }
+    .li-list5{
+        padding-right: 30px;
     }
 }
 
-    
 
 @media  (max-width: 1024px) {
    .section{
         margin-left: 10px;
     } 
+
+    .left-block{
+        width: 500px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .satauri1{
+        width: 350px;
+        height: 110px;
+        font-size: 40px;
+    }
+
+    .mobile-app{
+        width: 350px;
+        height: 40px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .wave-me{
+        width: 230px;
+        height: 50px;
+    }
+
+    .wave{
+        font-size: 18px;
+    }
+
+    .right-block{
+        width: 500px;
+        height: 200px;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-bottom: 200px;
+    }
+
+    .family-photo{
+        width: 90%;
+    }
 }
     
 
@@ -35,3 +98,32 @@
     }  
     
     }
+
+
+    /* section #2 */
+
+    @media  (max-width: 1024px) {
+      
+        .row1{
+        justify-content: space-around;
+        }
+
+
+        .text-block{
+            width: 500px;
+            margin-bottom: 45px;
+        }
+
+        .satauri2{
+            font-size: 18px;
+            margin-bottom: 13px;
+        }
+        
+        .paragraph1{
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        
+        }
+
+  
